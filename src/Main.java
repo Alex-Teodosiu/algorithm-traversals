@@ -25,11 +25,11 @@ public class Main {
         System.out.println();
         j.InOrderIteration(root);
 
-        /*System.out.println("\n");
+        System.out.println("\n");
 
-        PostOrder k = new PostOrder();
-        j.InOrderRecursive(root);
+        DescendingOrder k = new DescendingOrder();
+        k.descendingRecursive(root);
         System.out.println();
-        j.InOrderIteration(root);*/
+        k.descendingIteration(root);
     }
 }
